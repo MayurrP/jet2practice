@@ -13,7 +13,7 @@ namespace WebApplication1.Controllers
         {
             _logger = logger;
         }
-        
+        //This is View Index Function
         public IActionResult Index()
         {
             return View();
